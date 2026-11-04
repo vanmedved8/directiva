@@ -25,10 +25,22 @@ export default function Page() {
         <FinalCta />
       </main>
       <footer className="border-t border-slate-200 bg-slate-50 px-5 py-8 sm:px-8">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 text-sm text-slate-500 sm:flex-row sm:justify-between">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 text-sm text-slate-500 sm:flex-row sm:justify-between sm:items-center">
           <span className="font-semibold text-slate-900">Директива</span>
-          <span>Система управленческого контроля © Михаил Алексеев +79153987030 </span>
+          <span>
+            Система управленческого контроля © Михаил Алексеев{' '}
+            <a
+              href="tel:+79153987030"
+              className="font-medium text-slate-700 underline decoration-slate-300 underline-offset-4 transition-colors hover:text-slate-900 hover:decoration-slate-500"
+            >
+              +7 (915) 398-70-30
+            </a>
+          </span>
         </div>
+      </footer>
+    </>
+  )
+}
       </footer>
     </>
   )
