@@ -40,4 +40,22 @@ export function ProtocolCard() {
         </dl>
 
         <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-slate-200 px-5 py-4 sm:px-8">
-          <span className="text-xs font-medium
+          <span className="text-xs font-medium tracking-wider text-slate-500 uppercase">
+            Открытые проблемы: 2
+          </span>
+          <span className="text-sm text-slate-600">решения пока нет · не забыты</span>
+        </div>
+
+        <div className="flex items-center gap-3 border-t border-slate-200 bg-slate-50 px-5 py-4 sm:px-8">
+          <CheckCircle2 className="size-5 text-blue-700" aria-hidden="true" />
+          <span className="text-sm font-semibold text-slate-900">Ознакомлен, вопросов нет.</span>
+        </div>
+      </Card>
+
+      <figcaption className="mt-4 max-w-2xl text-center text-sm leading-relaxed text-slate-500">
+        Бумажная роспись не нужна. Запись совещания остаётся у вас. Если при приёме поручения вопросов не было, в протоколе
+        фиксируется, что возражений не прозвучало.
+      </figcaption>
+    </figure>
+  )
+}
