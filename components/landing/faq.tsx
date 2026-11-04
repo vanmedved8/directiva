@@ -6,6 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
+import { Card } from '@/components/ui/card'
 import { Section } from './section'
 
 const items = [
@@ -26,10 +27,8 @@ const items = [
 export function Faq() {
   return (
     <Section id="faq" index="FAQ" title="Частые возражения">
-      <Accordion
-        defaultValue={['item-0']}
-        className="max-w-4xl rounded-md border border-slate-200 bg-white px-5 shadow-sm sm:px-8"
-      >
+      <Card className="max-w-4xl gap-0 rounded-xl border border-slate-200 bg-white px-5 py-2 shadow-sm ring-0 sm:px-8">
+      <Accordion defaultValue={['item-0']}>
         {items.map((item, i) => (
           <AccordionItem key={item.q} value={`item-${i}`} className="border-slate-200">
             <AccordionTrigger className="py-6 text-left text-lg font-semibold tracking-tight text-slate-900 hover:no-underline sm:text-xl">
@@ -41,6 +40,7 @@ export function Faq() {
           </AccordionItem>
         ))}
       </Accordion>
+      </Card>
     </Section>
   )
 }

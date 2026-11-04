@@ -47,7 +47,7 @@ const modules = [
 export function Modules() {
   return (
     <Section id="modules" index="Модули со 2 по 9 · в разработке" title="Что дальше">
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {modules.map((m) => (
           <Card
             key={m.num}
