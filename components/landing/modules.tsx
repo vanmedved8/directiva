@@ -53,8 +53,7 @@ export function Modules() {
     >
       <p className="mb-10 max-w-2xl text-lg leading-relaxed text-slate-600">
         Модуль 1 убирает хаос в исполнении.  
-        Всё, что идёт после него — уже про маржу, узкие места, реальные расклады  
-        и то, что от вас обычно прячут.
+        Всё, что идёт после него — уже про маржу, узкие места, реальные расклады и то, что от вас обычно прячут.
       </p>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
