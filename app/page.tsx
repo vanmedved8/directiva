@@ -1,3 +1,4 @@
+
 import { SiteHeader } from '@/components/landing/site-header'
 import { Hero } from '@/components/landing/hero'
 import { Steps } from '@/components/landing/steps'
@@ -37,10 +38,6 @@ export default function Page() {
             </a>
           </span>
         </div>
-      </footer>
-    </>
-  )
-}
       </footer>
     </>
   )
